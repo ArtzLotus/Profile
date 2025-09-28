@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Diri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- h1 untuk membuat judul utama, alasan memakai ini adalah untuk menandakan bahwa ini adalah judul utama dari halaman -->
+    <h1>Profile Diri</h1>
+
+    <!-- div untuk mengelompokkan elemen elemen html menjadi satu kesatuan, alasan memakai ini karena ingin mengelompokkan elemen image dan table, class disini untuk menandakan nama dari kelompok ini -->
+    <div class="blockFoto">
+        <!-- img ini adalah tag untuk menampilkan gambar pada html, alasan memakainya adalah untuk menampilkan gambar foto diri di website html -->
+        <img class="profileImg" src="foto profile.jpg" width="200" alt="Foto Profil">
+        
+        <!-- table adalah tag untuk membuat tabel pada html, alasan memakainya adalah untuk membuat rapi peletakan informasi pribadi agar terlihat lebih enak -->
+        <table border="1" width="400px">
+            
+            <!-- tr adalah tag untuk membuat baris di dalam tabel, alasan menggunakan ini adalah untuk menambahkan baris didalam tabel agar bisa memasukkan informasi pribadi kedalam tabel-->
+            <tr align="center">
+                
+                <!-- td adalah tag untuk membuat kolom di dalam tabel, alasan menggunakan ini adalah untuk menambahkan informasi pribadi kedalam tabel -->
+                <td>Nama: </td>
+                <td>Dafi Fala Tansa</td>
+            </tr>
+            <tr align="center">
+                <td>NIM: </td>
+                <td>103032300067</td>
+            </tr>
+            <tr align="center">
+                <td>Jurusan: </td>
+                <td>S1 Teknologi Informasi</td>
+            </tr>
+            <tr align="center"align="center">
+                <td>Tanggal lahir: </td>
+                <td>29 Juni 2005</td>
+            </tr>
+            <tr align="center">
+                <td>Asal: </td>
+                <td>Kota Singkawang</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- br adalah tag untuk membuat gap pada html, alasan memakai tag ini adalah untuk membuat gap antara video dan identitas pribadi yang ada diatasnya -->
+    <br>
+    
+    <!-- video adalah tag untuk menampilkan video pada html, alasan memakai tag ini adalah untuk menampilkan video didalam website html -->
+    <video controls src="perkenalan diri.mp4" width="700px">Video Perkenalan</video>
+
+    <div class="block">
+            <h3>About Me</h3>
+            <p class="isiAbout">Saya seorang mahasiswa dari universitas telkom yang lahir di Singkawang pada tanggal 29 Juni 2005. Saya masih baru dalam web development ini, Karena itu, saya masih akan belajar lebih lanjut untuk menjadi web developer yang mahir.</p>
+           
+    </div>
+
+    <div class="blockSkill">
+        <table border="2" width="330">
+            <tr>
+                <!-- th adalah tag untuk membuat kolom header di dalam tabel, alasan memakai tag ini adalah untuk menandakan bahwa ini adalah kolom header -->
+                <th colspan="2" height="50px" bgcolor="gray">Keterampilan</th>
+            </tr>
+            <tr>
+                <th width="115" bgcolor="gray">Skill</th>
+                <th width="115" bgcolor="gray">Tingkat</th>
+            </tr>
+
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Pemula</td>
+            </tr>
+
+            <tr>
+                <td>Golang</td>
+                <td>Pemula</td>
+            </tr>
+
+            <tr>
+                <td>CPP</td>
+                <td>Pemula</td>
+            </tr>
+
+            <tr>
+                <td>Java</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="block">
+         <h3>Contact Me</h3>
+            <!-- form adalah tag untuk membuat form di dalam tabel, alasan memakai tag ini adalah untuk menampung input dari user, alasan memakai tag ini adalah untuk membuat form yang terstruktur -->
+            <form action="">
+                <table max-width="350">
+                    <tr>
+                        <td>Nama:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <!-- input adalah tag untuk membuat berbagai jenis input dalam suatu form, alasan memakai tag ini karena email yang dimasukkan user nanti benar benar dalam bentuk email yang benar -->
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Pesan:</td>
+                        <td>
+                            <!-- textarea adalah tag untuk membuat tempat memasukkan tulisan yang panjang, alasan memakai input ini karena bagian ini merupakan tempat untuk pesan yang dimana pesan yang mau dikirimkan bisa saja panjang -->
+                            <textarea></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <!-- button adalah tag untuk mebuat tombol pada html, alasan memakai ini karena bagian ini merupakan tombol untuk melakukan submit atau reset pada form -->
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    </div>
+
+    <div class="blockMedsos">
+        <h3>Media Sosial</h3>
+        <br>
+        <!-- a (anchor) berfungsi untuk membuat tautan yang memungkinkan user menavigasi ke halaman web lain, alasan memakai tag ini adalah karena ingin membuat user mengunjungi halaman web media sosial developer -->
+        <a href="https://www.instagram.com/dafi_falatansa/">Instagram</a>
+        |
+        <a href="https://github.com/ArtzLotus">Github</a>
+        |
+        <a href="https://www.facebook.com/profile.php?id=100009418178014">Facebook</a>
+    </div>
+</body>
+</html>
